@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #D6E2F0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Outfit', 'sans-serif'
+}
+
+.outerbox {
+    background-color: white;
+    height: 440px;
+    width: 275px;
+    border-radius: 15px;
+    box-shadow: 5px 20px rgba(169, 169, 169, 0.087);
+}
+
+.qrcode img {
+    width: 250px;
+    border-radius: 10px;
+    display: block;
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+    margin-top: 12.5px;
+    margin-bottom: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+#main {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+#bio {
+    color :rgba(169, 169, 169, 0.875);
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
